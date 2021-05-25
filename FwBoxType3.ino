@@ -13,7 +13,7 @@
 #include "FwBox.h"
 
 #define DEVICE_TYPE 3
-#define FIRMWARE_VERSION "1.1.11"
+#define FIRMWARE_VERSION "1.1.12"
 
 #define PIN_ON_OFF 12
 #define PIN_LED 13
@@ -50,7 +50,7 @@ bool FlagButtonPressed = false;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   //
   // Initialize the fw-box core (early stage)
